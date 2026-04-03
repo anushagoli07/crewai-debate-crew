@@ -1,0 +1,23 @@
+﻿propose:
+  description: >
+    Argue in favor of the topic: {topic}
+  expected_output: >
+    A compelling opening argument supporting the topic.
+  agent: debater
+  output_file: output/propose.md
+
+oppose:
+  description: >
+    Argue against the topic: {topic}
+  expected_output: >
+    A compelling counter-argument opposing the topic.
+  agent: debater
+  output_file: output/oppose.md
+
+decide:
+  description: >
+    Evaluate both sides and declare a winner for the topic: {topic}
+  expected_output: >
+    A verdict with clear reasoning declaring which side won.
+  agent: judge
+  output_file: output/verdict.md
